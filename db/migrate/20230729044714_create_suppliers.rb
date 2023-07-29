@@ -4,8 +4,7 @@ class CreateSuppliers < ActiveRecord::Migration[7.0]
       t.string :name
       t.integer :nit
       t.string :name_person_contact
-      t.integer :phone_number_person_contact, limit: 10
-
+      t.integer :phone_number_person_contact
       t.timestamps
     end
   end
