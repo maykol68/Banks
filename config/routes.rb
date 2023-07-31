@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'pages/home'
+  root 'pages#home' 
   resources :suppliers
   resources :banks
   devise_for :users
