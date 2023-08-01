@@ -25,6 +25,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_29_044714) do
     t.integer "nit"
     t.string "name_person_contact"
     t.integer "phone_number_person_contact"
+    t.integer "bank_account_number"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

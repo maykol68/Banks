@@ -5,6 +5,7 @@ class CreateSuppliers < ActiveRecord::Migration[7.0]
       t.integer :nit
       t.string :name_person_contact
       t.integer :phone_number_person_contact
+      t.integer :bank_account_number
       t.timestamps
     end
   end

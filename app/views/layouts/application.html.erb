@@ -13,11 +13,10 @@
 
   <body>
       <%= render 'shared/flash'%>
-      <%= render 'shared/header'%>
-      <%= render 'shared/navbar'%>
+      <%= render 'shared/header'%><br>
+      <%= render 'shared/navbar' %>
     <main class="container mx-auto mt-28 px-5 flex">
       <%= yield %>  
     </main>
   </body>
-  <footer><%= render 'shared/footer' %></footer>
 </html>
